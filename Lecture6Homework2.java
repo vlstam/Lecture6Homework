@@ -13,7 +13,7 @@ public class Lecture6Homework2 {
         System.out.println("Please enter a number: ");
         num = scan.nextInt();
         String isOddOrEven = num%2==0 ? "even" : "odd";
-        System.out.printf("Is %f even or odd?\n", num);
+        System.out.printf("Is %.0f even or odd?\n", num);
         System.out.println("It is " + isOddOrEven);
 
 
