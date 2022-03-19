@@ -14,7 +14,7 @@ public class Lecture6Homework1 {
         double num;
         num = scanner.nextDouble();
         double result = Math.sqrt(num);
-        System.out.printf("The square root of %.5f is %.5f",num, result);
+        System.out.printf("The square root of %.3f is %.5f",num, result);
 
     }
 }
